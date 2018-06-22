@@ -36,15 +36,8 @@ function imprimirSudoku($f){
 
 }
 
-// Onde será armazenado o resultado final
-// $final[linha][coluna] = 1-9
-// lembrando que:
-    // linha 1-9
-    // coluna 1-9
-
 $final = array();
 
-// $vetores[$linha%3] = começa com $linha / 3
 $vetores = array(
     array(1,2,3),
     array(4,5,6),
@@ -73,10 +66,5 @@ for ($linha=0; $linha < 9; $linha++) {
 }
 
 imprimirSudoku($final);
-
-
-
-
-
 ?>
 
