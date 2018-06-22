@@ -1,4 +1,6 @@
 <?php
+
+include_once('load_fontes.php');
 include('voltar.php');
 ?>
 

@@ -2,7 +2,6 @@ angular.module('raizes', [])
 
 .controller('raiz',['$scope', function($scope) {
 
-
     this.calcular = function(){
         
         raiz = ($scope.coeficiente_b * $scope.coeficiente_b) - (4 * $scope.coeficiente_a * $scope.coeficiente_c);
@@ -19,23 +18,11 @@ angular.module('raizes', [])
     	return isNaN(value);
   
     }
-  
-
 
     $scope.coeficiente_a = 1;
     $scope.coeficiente_b = 1;
     $scope.coeficiente_c = 1;
 
     this.calcular();
-    // $scope.xis = 1 + $scope.coeficiente_a;
-    // $scope.xislinha = 1 - $scope.coeficiente_a;
-
-    
-
-    // $scope.xis = 1;
-    // $scope.xislinha = 1;
-
-    // $scope.xis = 1 + $scope.coeficiente_a;
-    // $scope.xislinha = 1 - $scope.coeficiente_a;
 
   }]);
