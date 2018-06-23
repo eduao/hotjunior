@@ -30,13 +30,16 @@ include 'voltar.php';
     <br>
 
     <div ng-repeat="enq in enqs">
-        <div>
+        <form id="pesquisa{{$index}}">
             Enquete: {{enq.pergunta}}
-            <div ng-repeat="opc in enq.opcoes track by $index" ng-show="podeMostrar(enq.respondida_por, nome)">
-                <input type="radio" value="$index" >{{opc}}
+            <div ng-repeat="opcao in enq.opcoes track by $index" ng-show="podeMostrar(enq.respondida_por, nome)">
+                <input type="radio" name='selecionado' ng-model="selecionado[$parent.$index][$index]" value='{{$index}}'  ng-click='e.enviarResposta($parent.$index,$index,nome, $event)' />{{opcao}}
             </div>
             Autor: {{enq.autor}}
-        </div>
+            <div ng-show="!podeMostrar(enq.respondida_por, nome) && nome.length > 0">
+                Já respondida por:{{nome}}
+            </div>
+        </form>
     </div>
 
 </div>
