@@ -22,7 +22,7 @@
         ),
         array( 
             "enunciado" => "Em NodeJS existem threads?",
-            // "botao" => "cinco"
+            "botao" => "cinco"
         ),
         array( 
             "enunciado" => "Em sudoku, o objetivo é preencher uma grade 9x9 subdivida em quadrantes 3x3 com números de 1 a 9 de tal forma que não hajam números repetidos em uma mesma coluna, linha ou quadrante. Escreva um procedimento que gere uma matriz 9x9 válida como resultado de sudoku considerando uma grade vazia.",

@@ -1,5 +1,5 @@
 <?php
-// Em sudoku, o objetivo é preencher uma grade 9x9
+// Estacionamento
 include_once('load_fontes.php');
 include('voltar.php');
 
