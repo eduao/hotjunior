@@ -36,7 +36,7 @@
                 "Deve ser possível saber qual usuário criou cada enquete",
                 "Todas as enquetes são públicas"
             ),
-            // "botao" => "sete"
+            "botao" => "sete"
         ),
         array( 
             "enunciado" => "Você já conhecia algum dos problemas apresentados nesta avaliação? De onde?",

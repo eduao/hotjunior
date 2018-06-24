@@ -4,7 +4,7 @@ angular.module('enquetes', [])
 
     // Enquetes atuais
     $scope.enqs = [{
-        pergunta: 'Você gosta de mochileiro das galáxias?',
+        pergunta: 'Você gosta do guia do mochileiro das galáxias?',
         opcoes: [
             'Nah!',
             'Mais ou menos, né?!',
