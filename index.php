@@ -1,5 +1,6 @@
 <?php
 	include_once('load_fontes.php');
+	include_once('load_humans.php');
 ?>
 <style>
 	code{
@@ -19,6 +20,8 @@
 <?php 
 	include("questoes.php");
 ?>
+
+<a href='humans.txt' target='_blank'> humans.txt </a>
 
 
 

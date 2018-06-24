@@ -40,7 +40,7 @@
         ),
         array( 
             "enunciado" => "Você já conhecia algum dos problemas apresentados nesta avaliação? De onde?",
-            // "botao" => "oito"
+            "botao" => "oito"
         ),
     );
 ?>

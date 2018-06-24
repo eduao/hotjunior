@@ -1,0 +1,16 @@
+/* TEAM */
+	Developer: Eduardo A. Oliveira
+	Contact: emaildoedu00 [at] gmail.com
+	Github: @eduao
+	From: Contagem, Minas Gerais, Brasil
+
+/* THANKS */
+	Name: https://www.npmjs.com/
+
+/* SITE */
+	Last update:2018/06/24
+	Language: Portuguese
+	Standards: HTML5, CSS3, PHP
+	Components: AngularJS
+	Doctype:HTML5
+	IDE: Visual Studio Code
