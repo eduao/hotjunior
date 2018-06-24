@@ -8,8 +8,14 @@
     // @params $string - action para onde será redirecionado
     // @description Imprime um formulário com um botão de redirecionamento da página para o @param
     function criarBotao($string) {
+
+        $botao = $string.'.php';
         
-        echo '<form action="'.$string.'.php" method="get">'
+        if (strpos($string, '.')) {
+            $botao = $string;
+        }
+
+        echo '<form action="'.$botao.'" method="get">'
             . '<input type="submit" value="resposta">'
             . '</form>';
     }

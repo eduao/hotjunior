@@ -10,7 +10,7 @@
         ),
         array( 
             "enunciado" => "Em PHP, escreva as classes necessárias para representar um estacionamento.",
-            // "botao" => "tres"
+            "botao" => "tres"
         ),
         array(
             "enunciado" => "Qual o resultado do trecho de código a seguir:",
