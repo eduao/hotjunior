@@ -8,7 +8,7 @@
 	Name: https://www.npmjs.com/
 
 /* SITE */
-	Last update:2018/06/24
+	Last update:2018/06/25
 	Language: Portuguese
 	Standards: HTML5, CSS3, PHP
 	Components: AngularJS
