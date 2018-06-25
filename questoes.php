@@ -22,11 +22,11 @@
 
 
     // Caso haja algum enunciado na lista_questoes 
-    if (isset($array_lista) && count($array_lista) > 0) {
+    if (isset($array_questoes) && count($array_questoes) > 0) {
 
         echo '<ol>';
 
-        foreach ($array_lista as $questao) {
+        foreach ($array_questoes as $questao) {
 
             $tem_alem_enunciado = false;
 
@@ -81,10 +81,10 @@
             }
 
 
-        } // Fim foreach array_lista
+        } // Fim foreach array_questoes
 
         echo '</ol>';
-    } // Fim Se Tem array_lista e size > 0
+    } // Fim Se Tem array_questoes e size > 0
 
     
 ?>

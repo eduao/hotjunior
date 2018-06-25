@@ -1,5 +1,5 @@
 <?php
-    $array_lista = array(
+    $array_questoes = array(
         array( 
             "enunciado" => "Escreva uma função que receba como parâmetros os coeficientes de uma equação de segundo grau e retorne suas raízes",
             "botao" => "um"
